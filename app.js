@@ -48,7 +48,8 @@ var DialogLabels = {
     Support: 'Support'
 };
 
-var recognizer = new builder.LuisRecognizer('https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/e1f76d9b-2c14-4506-9150-1d1a961f1a2a?subscription-key=8d1ad9d26062406ca604c00abb754e8c&timezoneOffset=0&verbose=true&q=');
+//Add luis url
+var recognizer = new builder.LuisRecognizer('');
 var intentDialog = new builder.IntentDialog({recognizers: [recognizer]});
 
 intentDialog.matches('createCase', '/CreateCase');
