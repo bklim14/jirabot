@@ -1,4 +1,4 @@
-# Meralco bot
+# Jira bot
 
 To start, 
 
