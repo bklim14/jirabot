@@ -2,7 +2,7 @@ var request = require('request');
 var q = require('q');
 
 //jira url
-var apiUrl = 'https://8fc42eb6.ngrok.io/rest/api/latest/';
+var apiUrl = '';
 var issuePath = 'issue/'
 
 module.exports = {
